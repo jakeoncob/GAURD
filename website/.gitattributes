@@ -1,0 +1,3 @@
+# Preserve the exact bytes recorded in the import provenance across platforms.
+data-sources/partner/* -text
+model-pipeline/models/* -text

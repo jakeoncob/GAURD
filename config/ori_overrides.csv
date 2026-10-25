@@ -1,0 +1,16 @@
+geoid,state_abbr,agency_name_contains,note
+3651000,NY,New York City Police Department,NYPD covers all five boroughs
+3240000,NV,Las Vegas Metropolitan Police Department,LVMPD covers the city and unincorporated Clark County
+2148006,KY,Louisville Metro Police Department,Consolidated city-county (balance)
+4752006,TN,Metropolitan Nashville Police Department,Covers Davidson County; generic 'Nashville' also matches the park police
+1836003,IN,Indianapolis Police Department,CDE name for IMPD; covers Marion County except excluded towns
+3712000,NC,Charlotte-Mecklenburg Police Department,
+1235000,FL,Jacksonville Sheriff's Office,Consolidated city-county policed by the Sheriff's Office
+2146027,KY,Lexington Police Department,Lexington-Fayette urban county
+1304204,GA,Richmond County Sheriff,Augusta-Richmond County consolidated government
+1303440,GA,Athens-Clarke County Police,
+1349008,GA,Bibb County Sheriff's Office,Macon-Bibb County consolidated government is policed by the Sheriff
+0203000,AK,Anchorage Police Department,Municipality of Anchorage
+1150000,DC,Metropolitan Police Department,Washington DC
+2938000,MO,Kansas City Police Department,Exact name wins over 'North Kansas City Police Department'
+0665042,CA,Ventura Police Department,Census name is 'San Buenaventura (Ventura) city'
