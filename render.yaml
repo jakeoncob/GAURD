@@ -1,0 +1,21 @@
+# Render Blueprint: deploys the GAURD website (map + Gemma API) as one free Node web service.
+# In Render: New -> Blueprint -> pick this repo -> fill in GEMINI_API_KEY when prompted.
+services:
+  - type: web
+    name: gaurd
+    runtime: node
+    plan: free
+    rootDir: website
+    # The preview server and the Gemma handler use only Node built-ins, so no npm install is needed.
+    buildCommand: node --check scripts/preview-server.mjs
+    startCommand: npm run preview:local
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22.14.0"
+      - key: GEMINI_API_KEY
+        sync: false            # entered once in the Render dashboard, never stored in Git
+      - key: GEMMA_MODEL
+        value: gemma-4-26b-a4b-it
+      - key: GEMMA_RESEARCH_MODEL
+        value: gemma-4-31b-it

@@ -13,6 +13,8 @@ npm test
 
 Open `http://127.0.0.1:4173`. Requires Node 22.13+ and `npm install`. The local preview uses the same research handler as production.
 
+The same preview server also runs on any Node host: it binds to `PORT` on all interfaces when that variable is set and reads `GEMINI_API_KEY` from the environment as well as `.env.local`. A ready-made Render blueprint and step-by-step deploy notes are in the repository root [`render.yaml`](../render.yaml) and [README](../README.md#deploy-to-a-live-url).
+
 ## Data and models
 
 - Saved violent/property forecasts power the charts.
